@@ -1,0 +1,257 @@
+@media screen and (max-width: 1024px) {
+   .t-wrapper {
+        padding-bottom: 0;
+		
+    }
+	.t-site-header {
+       padding: 0 15px 10px 15px;
+    }
+	.t-brand {
+       font-size: 18px;
+	   color:#000;
+	   text-shadow: none;
+   	}
+	
+	 .toggle-menu{
+        display: block;
+		padding-top: 29px;
+    	font-size: 32px;
+    }
+	 .mobile-holder{
+        display:block;
+    }
+	 .mobile-holder a.facebook-button{
+	   text-decoration: none;
+	   color: #000;
+	   font-size: 23px;
+	   float: right;
+	   margin-top: 27px;
+	   padding: 5px;
+	   display: block;
+	}
+	.main-nav{
+     	width: 100%;
+    	display: none;
+    	position: absolute;
+		background-color: #364553;
+    	left: 0;
+		z-index: 1;
+	}
+	
+	.main-nav a{
+    display:block;
+	margin:0;
+	color:#fff;
+	text-shadow: none;
+	}
+	.main-nav a.facebook-button{
+		display: none;
+	}
+	.content-wrap {
+       padding: 0 15px;
+	   text-align: center;
+	}
+	/*home-page*/
+	#main-image {
+		margin:0;
+		height: auto;
+		padding-bottom: 20px;
+    }
+	.holder {
+    	display: block;
+   		padding:0 10px;
+		text-align: center;
+	}
+	.main-image-text {
+		display: block;
+		padding-top: 0;
+		
+	}
+	.main-image-text h1 {
+		margin-top:0;
+		font-size: 50px;
+	}
+	.main-image-text h3 {
+    	font-size: 18px;
+    
+	}
+	.main-image-text h4 {
+    	font-size: 16px;
+	}
+	.home-phone {
+		display: none;
+		padding: 0;
+	}
+	.maps-content {
+		padding: 10px 15px 20px 15px;
+	}
+	.text-content {
+		padding: 20px 0;
+	}
+	.text-content h2 {
+    	font-size: 30px;
+		margin-bottom: 10px;
+	}
+	.link-content a {
+        font-size: 16px;
+		line-height: 47px;
+		margin: 10px 10px 0px 10px;
+    }
+	.link-content img {
+        height: 40px;
+		margin-right: 10px;
+    }
+	.info-app article {
+    
+    	padding-top: 30px;
+	}
+	.info-app h2 {
+    	font-size: 30px;
+    }
+	
+	.oringe-content {
+   		padding: 10px 15px;
+	}
+	.oringe-content p{
+		font-size:18px;
+	}
+	.oringe-content  img{
+		width:15px;
+	}
+	/*</home-page>*/
+	/*<features>*/
+	.features {
+        padding-top: 0px;
+	}
+	.features article {
+    	padding-top:0;
+	}
+	.features figure{
+		display: none;
+		margin:0;
+	}
+	 .features .phone-right figure {
+		 margin-top:20px;
+	 }
+	.features figure img {
+        width: 210px;
+	}
+	.features h2 {
+    	font-size: 30px;
+		margin: 15px 0 10px 0;
+    }
+	.features .mobile-figure{
+		display: block;
+    	text-align: center;
+    	width: 100%;
+		margin-top: 20px;
+	}
+	/*</features>*/
+	/*<support>*/
+	.questions-content {
+    	display: block;
+		height: auto;
+		padding:20px 0;
+	}
+	.questions-content h2 {
+    	text-align: center;
+		padding-bottom: 15px;
+		font-size: 30px;
+	}
+	.questions {
+    	display: block;
+		text-align: left;
+		margin-bottom: 30px;
+	}
+	.list-style li {
+    
+    	padding: 5px 0 10px 25px;
+	}
+	.questions a{
+		font-size:16px;
+	}
+	.question-form {
+    	display: block;
+		padding: 0 20px;
+	}
+	.answers {
+    	text-align: center;
+		padding-top: 10px;
+	}
+	.answers p {
+   		text-align: center;
+     	padding: 0px 15px 25px 15px;
+	}
+/*</support>*/
+/*<contacts>*/
+	.content-contacts {
+       	display: block;
+		padding: 30px 0;
+	}
+	.text-contacts {
+		display: block;
+		padding: 0px 20px;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	.text-contacts h1{
+		font-size: 30px;
+	}
+	.maps-contacts {
+    	display:block;
+   }
+	#googleMap {
+    	width: 100%;
+    	height: 380px;
+	}
+	.form-contacts {
+    	display: block;
+		padding: 26px 0 0 44px;
+	}
+	
+
+
+
+/*</contacts>*/
+	.download{
+		padding-bottom: 30px
+	}
+	.download h2 {
+    	padding: 0;
+		font-size: 25px;
+		margin: 20px 0;
+	}
+	.download-content {
+		display: block;
+	}
+	.download-card {
+        width: 100%;
+    }
+	.download-cell  {
+		display: block;
+		text-align: center;
+	}
+	.download-cell.free {
+    	text-align: center;
+		margin-bottom: 10px;
+	}
+	.download-cell.premium {
+   		text-align: center;
+	}
+	.t-site-footer .t-brand {
+        margin:0;
+	}
+	.t-site-footer {
+   		position: relative
+	}
+	.footer-holder {
+   		padding: 10px 0;
+    }
+	.footer-nav{
+		padding: 10px 5px 15px 5px;
+	}
+	.footer-nav a {
+    	font-size: 16px;
+    }
+	
+}

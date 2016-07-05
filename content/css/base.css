@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'CorisandeBold';
+    src: url('../fonts/CorisandeBold.eot?#iefix') format('embedded-opentype'), url('../fonts/CorisandeBold.woff') format('woff'), url('../fonts/CorisandeBold.ttf') format('truetype'), url('../fonts/CorisandeBold.svg#CorisandeBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+body {
+    height: auto;
+    position: relative;
+    min-height: 100%;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #5c5c5c;
+    background: #fff;
+    font-weight: 400;
+}
+
+/* layout */
+
+.t-wrapper {
+    width: 100%;
+    padding-bottom: 158px;
+    overflow: hidden;
+}
+.t-site-header{
+    overflow: hidden;
+}
+.mobile-holder{
+    overflow: hidden;
+    display: inline-block;
+}
+.toggle-menu{
+    display:none;
+    float: right;
+    padding: 10px 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+.t-content {
+    width: 100%;
+}
+.content-wrap {
+    max-width: 970px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.t-site-header {
+    width: 100%;
+    background-color: #fff;
+    padding: 0 33px 0 33px;
+    overflow: hidden;
+}
+.t-brand {
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    font-family: 'CorisandeBold';
+    padding: 26px 0 0 63px;
+    position: relative;
+    margin-top: 15px;
+    display: inline-block;
+}
+.t-brand img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 55px;
+}
+.mobile-holder a.facebook-button{
+		display: none;
+	}
+.main-nav {
+    float: right;
+    padding: 31px 0 28px 0;
+}
+.main-nav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+    padding: 5px;
+    margin-left: 30px;
+    display: inline-block;
+}
+.main-nav a:hover,
+.main-nav a.active {
+    color: #f8be58;
+}
+.main-nav a:first-child {
+    margin-left: 0;
+}
+
+
+.download {
+    background-color: #edeef0;
+    text-align: center;
+    color: #000;
+    padding-bottom: 62px;
+    overflow: hidden;
+}
+.download h2 {
+    font-size: 30px;
+    padding: 5px 200px 18px 200px;
+    font-weight: 100;
+    margin: 55px 0 22px 0;
+}
+.download h3 {
+    font-size: 30px;
+    line-height: 59px;
+}
+.download h4 {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.download h5 {
+    font-size: 18px;
+    margin: 30px 0 13px 0;
+}
+.download p {
+    font-size: 14px;
+    text-align: left;
+    margin: 0 0 10px 0;
+    padding-left: 20px;
+}
+.download-content {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+.download-cell {
+    display: table-cell;
+    padding: 0 15px;
+}
+.download-cell.free {
+    text-align: right;
+}
+.download-cell.premium {
+    text-align: left;
+}
+.download-card {
+    border: 1px solid #babeca;
+    display: inline-block;
+    background-color: #fff;
+    width: 370px;
+    padding: 0 0 30px 0;
+    text-align: center;
+    position: relative;
+}
+.premium .download-card:before {
+    position: absolute;
+    top: 15px;
+    right: -10px;
+    width: 118px;
+    height: 48px;
+    background: url("../images/risk_icon.png");
+    background-repeat: no-repeat;
+    content: "";
+}
+.download-premium {
+    border: 1px solid #babeca;
+    display: inline-block;
+    background-color: #fff;
+    margin-left: 30px;
+}
+.t-site-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #364553;
+}
+.footer-nav {
+    float: right;
+    padding: 45px 0 28px 0;
+}
+.footer-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px;
+    margin-left: 30px;
+}
+.footer-nav a:first-child {
+    margin-left: 0;
+}
+.t-site-footer .t-brand {
+    color: #fff;
+    margin: 28px 0 37px 0;
+}
+.footer-holder {
+    padding: 0 33px 0 33px;
+    overflow: hidden;
+}
+.copyright {
+    background-color: #f9c316;
+    margin: 0;
+    font-size: 11px;
+    color: #000;
+    padding: 12px 0px 12px 33px;
+    font-weight: bold;
+}
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}

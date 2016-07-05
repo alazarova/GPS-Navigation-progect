@@ -1,0 +1,46 @@
+
+body{
+	background: #f1f1f1;
+	font-family: 'Open Sans', sans-serif;
+	
+    font-weight: 400;
+    font-size: 16px;
+}
+.t-site-header{
+	border-bottom: 1px solid #babeca;
+}
+
+.features{
+	font-size: 14px;
+    padding-top: 70px;
+   color:#495767;
+    background-color: #fff;
+}
+.features article{
+	border-bottom: 1px solid #babeca;
+	overflow: hidden;
+	padding-top: 50px;
+}
+.features figure{
+	float: left;
+    margin: 0 108px 0 0;
+}
+
+.features figure img{
+	display: inline-block;
+	vertical-align: top;
+}
+.features .phone-right figure{
+	float:right;
+	margin: 0 0 0 108px;
+}
+.features h2{
+	font-size: 48px;
+	color:#000;
+	font-weight: 100;
+    line-height: 60px;
+    margin:65px 0 20px 0;
+}
+.features .mobile-figure{
+		display: none;
+	}
